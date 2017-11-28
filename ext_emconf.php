@@ -1,7 +1,7 @@
 <?php
 
 /***************************************************************
- * Extension Manager/Repository config file for ext "rte_ckeditor_fontawesome".
+ * Extension Manager/Repository config file for ext "T8_CK".
  *
  * Auto generated 13-11-2017 16:57
  *
