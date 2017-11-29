@@ -1,0 +1,127 @@
+/*FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700);
+
+/*BODY*/
+html{
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.7;
+    /* nav height */
+}
+
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+h4:after{
+    content: "";
+    display: block;
+    margin-top: 1em;
+    border-bottom: 1px dashed #000;
+}
+
+h4 + p, h4 + address p{
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h5 + p{
+    margin-top: 0;
+}
+
+a {
+    color: #E36E1E;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover{
+    border-color: #E36E1E;
+}
+
+a.icon-link:hover{
+    border-bottom: none;
+}
+
+
+button {
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 0px;
+    border-radius: 1em;
+    -webkit-appearance: none;
+    background-color: #E36E1E;
+    border: 1px solid #E36E1E;
+    color: #fff;
+    padding: 0 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    width: auto !important;
+    margin: 1em 0;
+}
+button:hover{
+    background-color: transparent;
+    color: #E36E1E;
+}
+
+button{
+    text-align: left;
+    padding: 0 5em 0 1em;
+    position: relative;
+    transition: padding 0.3s ease;
+}
+
+button:after{
+    content: "\f054";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8em;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 1em;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+button:hover{
+    padding-right: 6em;
+}
+
+button:hover:after{
+    color: #E36E1E;
+}
