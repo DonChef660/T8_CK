@@ -3,40 +3,38 @@
 
 /*BODY*/
 html{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
     font-family: 'Merriweather Sans', sans-serif;
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.7;
-    /* nav height */
 }
 
 h2 {
-    font-size: 2em;
+    
     text-transform: uppercase;
     font-weight: 300;
 }
 
 h3 {
-    font-size: 1.6em;
+    
     text-transform: uppercase;
 }
 
 h4{
-    font-size: 1em;
+    
     font-weight: 700;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+    
     text-transform: uppercase;
 }
 
 h4:after{
     content: "";
     display: block;
-    margin-top: 1em;
+   
     border-bottom: 1px dashed #000;
 }
 
@@ -124,4 +122,15 @@ button:hover{
 
 button:hover:after{
     color: #E36E1E;
+}
+.align-left, .text-left {
+    text-align: left;
+}
+
+.align-center, .text-center {
+    text-align: center;
+}
+
+.align-right, .text-right {
+    text-align: right;
 }
