@@ -20,7 +20,7 @@ $EM_CONF[$_EXTKEY] = array (
   'clearCacheOnLoad' => 0,
   'author' => 'Fehmi Raqipi',
   'author_email' => 'fehmi.raqipi@terminal8.ch',
-  'version' => '8.7.7',
+  'version' => '8.8.0',
   'constraints' => 
   array (
     'depends' => 
